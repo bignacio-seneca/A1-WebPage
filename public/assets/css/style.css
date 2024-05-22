@@ -1,4 +1,39 @@
 body{
-    background-color: pink;
-    color: lightblue;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-areas: 
+    "header header header header"
+    "hero hero hero hero"
+    "delivering delivering delivering delivering"
+    "footer footer footer footer";
+
+}
+
+header{
+    background-color: bisque;
+    grid-area: header;
+}
+
+.navbar{
+    background-color: brown;
+}
+
+.hero{
+    background-color: darkolivegreen;
+    grid-area: hero;
+}
+
+.delivering{
+    background-color: skyblue;
+    grid-area: delivering;
+}
+
+footer{
+    background-color: peachpuff;
+    grid-area: footer;
 }
