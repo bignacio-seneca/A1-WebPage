@@ -86,7 +86,7 @@ header .navbar{
 /* hero grid */
 
 .hero-grid{
-    background-color: antiquewhite;
+
     display: flex;
     justify-items: center;
     align-items: center;
@@ -100,14 +100,12 @@ header .navbar{
     display: grid;
     grid-template-rows: 0.2fr 0.2fr 2.5fr 2.5fr 1fr;
     grid-template-columns: 0.8fr 0.8fr 0.5fr 0.5fr 0.5fr;
-    background-color: pink;
+
     margin: 40px 200px;
     gap: 10px;
 }
 
 .item{
-    background-color: #ffffff;
-    border: 2px solid black;
     border-radius: 20px;
     background-size: cover; 
     background-position: center; 
@@ -318,7 +316,7 @@ header .navbar{
 
 footer{
     grid-area: footer;
-    background-color: pink;
+
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr;
@@ -335,7 +333,7 @@ footer{
 
 .socials{
     grid-area: socials;
-    background-color: olive;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -419,7 +417,7 @@ footer{
 
     .menu li{
         display: inline-block;
-        background-color: pink;
+
         padding: 0px 75px;
         font-size: 18px;
         color: #6C5CE7;
@@ -451,7 +449,7 @@ footer{
 
     .hero{
         z-index: 1;
-        background-color: olive;
+
     }
 
     .hero-title {
@@ -505,7 +503,7 @@ footer{
     /* footer */
 
     footer{
-        background-color: peachpuff;
+
         grid-area: footer;
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -530,7 +528,7 @@ footer{
         "information-title information-title information-title"
         "container-3 container-3 container-3"
         ;
-        background-color: aliceblue;
+     
         margin-left: 200px;
     }
     
@@ -540,7 +538,7 @@ footer{
     
     .socials{
         grid-area: socials;
-        background-color: olive;
+       
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -568,7 +566,7 @@ footer{
     }
     
     .information{
-        background-color: lightgray;
+
         grid-area: information;
         display: flex;
         flex-direction: row;
